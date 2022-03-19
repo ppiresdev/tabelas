@@ -1,0 +1,107 @@
+/*Reset básico*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*Container principal*/
+main {
+  width: 960px;
+  margin: 0 auto;
+  background-color: bisque;
+}
+
+div {
+  margin: 2rem 2rem;
+  padding: 2rem 2rem;
+}
+
+p {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+/*CSS comun a todas tabelas*/
+.tabela-geral table {
+  background-color: #f6f6f6;
+  margin: 0 auto;
+  font-size: 2rem;
+  width: 70%;
+  border-collapse: collapse;
+}
+
+.tabela-geral table td,
+th {
+  border: 1px solid #999;
+  padding: 0.5rem;
+}
+
+.tabela-geral table tr:nth-child(1) {
+  text-align: left;
+}
+.tabela-geral table tr:nth-child(2) {
+  text-align: center;
+}
+.tabela-geral table tr:nth-child(3) {
+  text-align: right;
+}
+
+/*CSS específico para a segunda tabela*/
+
+.tabela2 table tr:nth-child(1) {
+  text-align: left;
+}
+.tabela2 table tr:nth-child(2) td {
+  text-align: center;
+}
+.tabela2 table tr:nth-child(3) {
+  text-align: left;
+}
+
+/*CSS específico para a terceira tabela*/
+.tabela3 table tr:nth-child(2) {
+  text-align: center;
+}
+
+.tabela3 table tr:nth-child(1) td:nth-child(3) {
+  text-align: center;
+}
+
+.tabela3 table tr:nth-child(3) {
+  text-align: left;
+}
+
+/*Exercício 2*/
+
+.layout-site table {
+  font-size: 1.5rem;
+}
+
+.layout-site table tr:nth-child(1) td {
+  text-align: center;
+  padding: 2rem;
+}
+
+.layout-site table tr:nth-child(2) td {
+  text-align: center;
+  padding: 10rem 1rem 10rem 1rem;
+}
+
+.layout-site table tr:last-child td {
+  text-align: center;
+  padding: 2rem;
+}
+
+/*Exercício 3*/
+.ex3-tab1 table td {
+  text-align: center;
+  padding: 5.5rem 1rem 5.5rem 1rem;
+}
+
+.ex3-tab3 table td {
+  text-align: center;
+  padding: 3.5rem 1rem 3.5rem 1rem;
+}
