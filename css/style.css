@@ -6,6 +6,40 @@
   padding: 0;
 }
 
+/*Navbar*/
+/* nav {
+  margin-top: 20px;
+} */
+
+ul {
+  padding: 2rem;
+  list-style: none;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+}
+
+ul li {
+  margin-right: 2rem;
+}
+
+ul li a {
+  text-decoration: none;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+
+ul li a:hover {
+  background-color: crimson;
+  color: black;
+}
+
 /*Container principal*/
 main {
   width: 960px;
